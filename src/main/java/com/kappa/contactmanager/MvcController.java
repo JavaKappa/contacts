@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MvcController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String printHello(Model model) {
+
+
+
         return "index";
     }
 }
